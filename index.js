@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(
   cors({
-    origin: 'https://zero-backend-lzc1.vercel.app', 
+    origin: 'https://www.zerozclothes.com', 
     credentials: true,
   })
 );

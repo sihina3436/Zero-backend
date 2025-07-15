@@ -24,8 +24,8 @@ router.post('/create-checkout-session', async (req, res) => {
       payment_method_types: ['card'],
       mode: 'payment',
       line_items: lineItems,
-      success_url: `https://zero-backend-lzc1.vercel.app/success?session_id={CHECKOUT_SESSION_ID}`,
-      cancel_url: `https://zero-backend-lzc1.vercel.app/cancel`,
+      success_url: `https://www.zerozclothes.com/success?session_id={CHECKOUT_SESSION_ID}`,
+      cancel_url: `https://www.zerozclothes.com/cancel`,
     });
 
     res.json({ id: session.id });
