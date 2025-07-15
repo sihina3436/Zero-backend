@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(
   cors({
-    origin: 'http://localhost:5173', 
+    origin: 'https://zero-backend-lzc1.vercel.app', 
     credentials: true,
   })
 );
